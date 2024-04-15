@@ -1,0 +1,20 @@
+.container {
+  width: 800px; 
+  height: 800px;
+  margin: 0 auto;
+  background-color: #172f9c;
+  padding: 20px;
+}
+
+.row {
+  height: 80%;
+  width: 80%;
+  background-color: black;
+  display: flex; /* Add this to make columns appear horizontally */
+}
+
+.column {
+  flex: 1; /* Add this to make columns fill the row */
+  background-color: white; /* Add a background color to distinguish columns */
+  border: 1px solid #fff; /* Add a border to separate columns */
+}
