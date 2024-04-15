@@ -7,8 +7,8 @@
 }
 
 .row {
-  height: 80%;
   width: 80%;
+  height: 50px;
   background-color: black;
   display: flex; /* Add this to make columns appear horizontally */
 }
@@ -18,3 +18,4 @@
   background-color: white; /* Add a background color to distinguish columns */
   border: 1px solid #fff; /* Add a border to separate columns */
 }
+
