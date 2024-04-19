@@ -33,3 +33,10 @@ body{
 .button{
   margin-top: 50px;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
