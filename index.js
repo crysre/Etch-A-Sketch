@@ -82,10 +82,10 @@ function defaulty(){
         
         div.forEach(div => {
             div.addEventListener("mouseover", () => {
-                const r = 0;
-                const g = 0;
-                const b = 0;
-                div.style.backgroundColor = colour;
+                const r = Math.floor(Math.random()*255);
+                const g = Math.floor(Math.random()*255);
+                const b = Math.floor(Math.random()*255);
+                div.style.backgroundColor = rgb(${r}, ${g}, $(b));
                 currentColourIndex = (currentColourIndex +1)% colours.length;
             })
         })
