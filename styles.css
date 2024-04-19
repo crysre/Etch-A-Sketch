@@ -9,7 +9,7 @@
 
 .row {
   width: 100%;
-  background-color: black;
+
   display: flex; 
   margin: 0;
 }
@@ -28,7 +28,7 @@
 }
 
 body{
-  background-color: antiquewhite;
+  background-image: linear-gradient(140deg, #EADEDB 0%, #393053 70%);
 }
 .button{
   margin-top: 50px;
@@ -47,4 +47,33 @@ label{
 .btn{
   height: 50px;
 
+}
+
+
+
+#dBtn{
+  background-color: #393053;
+  color: #fff;
+  font-size: medium;
+  border-radius: 15%;
+  font-weight: bold;
+}
+
+#rBtn{
+  background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);
+  color: #ffffff;
+  font-size: medium;
+  border-radius: 5%;
+  font-weight: bold;
+}
+#eBtn{
+  font-size: medium;
+  font-weight: bold;}
+
+input{
+  font-size: medium;
+  height: 50px;
+  border-radius: 5%;
+  
+  
 }
