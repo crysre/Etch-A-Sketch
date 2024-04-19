@@ -78,13 +78,13 @@ function defaulty(){
             })
         });
         
-        let currentColourIndex = 0;
-        const div = document.querySelectorAll(".div")
-        const colours = ["#635985", "#443C68", "#393053", "#18122B"]
+
         
         div.forEach(div => {
             div.addEventListener("mouseover", () => {
-                const colour = colours[currentColourIndex];
+                const r = 0;
+                const g = 0;
+                const b = 0;
                 div.style.backgroundColor = colour;
                 currentColourIndex = (currentColourIndex +1)% colours.length;
             })
