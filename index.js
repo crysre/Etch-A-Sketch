@@ -46,3 +46,10 @@ function defaulty(){
 }
 
     }
+
+    function erase() {
+        const divs = document.querySelectorAll(".column");
+        divs.forEach(div => {
+            div.style.backgroundColor = "white";
+        });
+    }
