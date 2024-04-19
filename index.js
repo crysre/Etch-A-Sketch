@@ -79,8 +79,8 @@ function defaulty(){
         });
         
 
-        
-        div.forEach(div => {
+        const divs = document.querySelectorAll(".div");
+        divs.forEach(div => {
             div.addEventListener("mouseover", () => {
                 const r = Math.floor(Math.random()*255);
                 const g = Math.floor(Math.random()*255);
