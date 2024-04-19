@@ -3,7 +3,7 @@ const containers = document.querySelectorAll(".container");
 
 let gridInput = 0
 
-function default(){
+function defaulty(){
     let input = document.getElementById("userInput").value;
     
     gridInput = input;
