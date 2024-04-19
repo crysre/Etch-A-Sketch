@@ -42,13 +42,6 @@ function defaulty(){
             div.style.backgroundColor = colour;
             currentColourIndex = (currentColourIndex +1)% colours.length;
         })
-    function erase(){
-        div.forEach(div =>{
-            div.addEventListener("mouseover", () => {
-                div.style.backgroundColor = "white"
-            })
-        })
-    }
     })
 }
 
