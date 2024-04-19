@@ -32,7 +32,8 @@ function returnText(){
         })
     });
     
-    let currentColourIndex = 0;
+    functuon default(){
+        let currentColourIndex = 0;
     const div = document.querySelectorAll(".div")
     const colours = ["#635985", "#443C68", "#393053", "#18122B"]
     
@@ -43,6 +44,7 @@ function returnText(){
             currentColourIndex = (currentColourIndex +1)% colours.length;
         })
     })
+    }
 }
 
     }
